@@ -1,0 +1,52 @@
+# ==========================================
+# Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Telemetry Logs & Data Files
+# ==========================================
+# Ignores generated CSV flight logs and local log folders
+flight_logs/
+*.csv
+*.log
+*.kml
+*.tlog
+
+# ==========================================
+# Virtual Environments & Packages
+# ==========================================
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ==========================================
+# IDE & Code Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+.DS_Store
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+*.secret
+
+# ==========================================
+# Flask & Web Testing Output
+# ==========================================
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
